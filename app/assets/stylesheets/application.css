@@ -11,3 +11,18 @@
  *= require_self
  *= require_tree .
 */
+
+body .content h1 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+}
+
+body .content h2 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+}
+
+body .content #introduction {
+  background-color: #eee;
+  padding: 10px;
+}
