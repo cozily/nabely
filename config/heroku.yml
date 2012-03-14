@@ -1,0 +1,25 @@
+apps:
+  production: nabely
+  staging: nabely-staging
+
+stacks:
+  all: ruby-1.9.3-p0
+
+config:
+  all:
+    BUNDLE_WITHOUT: "test:development"
+
+collaborators:
+  all:
+    - "todd.persen@gmail.com"
+    - "peter.a.jaros@gmail.com"
+
+domains:
+  production:
+    - "nabe.ly"
+  staging:
+    - "staging.nabe.ly"
+
+addons:
+  all:
+    - custom_domains:basic
