@@ -1,0 +1,10 @@
+#introduction.span6.offset3
+  - if user_signed_in?
+    %h1 Hey there, #{current_user.first_name}!
+    %h2 (you're signed in to Nabely.)
+  - else
+    %h1 Hey Neighbor!
+    %h2 Nabely is a place to meet your neighbors and create community.
+
+    %a.facebook-login-button{href: user_omniauth_authorize_path(:facebook)}
+      %span Connect with Facebook

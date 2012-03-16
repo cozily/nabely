@@ -34,4 +34,7 @@ Nabely::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  FACEBOOK_APP_ID = "265686703513960"
+  FACEBOOK_APP_SECRET = "49bbd1efe092e7d0c38c7b62d624f587"
 end

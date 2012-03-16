@@ -64,4 +64,7 @@ Nabely::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+
+  FACEBOOK_APP_ID = "384353961589923"
+  FACEBOOK_APP_SECRET = "1fb60474757db0f1dc1d50a9a84ac6dd"
 end

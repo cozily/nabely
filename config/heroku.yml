@@ -3,11 +3,12 @@ apps:
   staging: nabely-staging
 
 stacks:
-  all: ruby-1.9.3-p0
+  all: cedar
 
 config:
   all:
     BUNDLE_WITHOUT: "test:development"
+    RUBY_VERSION: "ruby-1.9.3-p0"
 
 collaborators:
   all:
