@@ -65,6 +65,6 @@ Nabely::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
-  FACEBOOK_APP_ID = "384820648204019"
-  FACEBOOK_APP_SECRET = "f6651a18e4c6d8bb95828b1bd8da28b4"
+  FACEBOOK_APP_ID = "384353961589923"
+  FACEBOOK_APP_SECRET = "1fb60474757db0f1dc1d50a9a84ac6dd"
 end
